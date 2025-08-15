@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚀 Autodesk APAC Customer Analytics
 ## Strategic Data Analysis & Business Intelligence Methodology
 

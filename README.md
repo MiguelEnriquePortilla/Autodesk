@@ -1,4 +1,3 @@
-
 # 🚀 Autodesk APAC Customer Analytics
 ## Strategic Data Analysis & Business Intelligence Methodology
 
@@ -218,26 +217,15 @@ After completing comprehensive analysis, I designed a **7-dataset architecture**
 ```
 autodesk-apac-customer-analytics/
 ├── data/
-│   ├── processed/
-│   │   ├── autodesk_master_usage_data.csv       # Complete fact table (955K records)
-│   │   ├── autodesk_regional_summary.csv        # Regional performance (6 regions)
-│   │   ├── autodesk_sizeband_analysis.csv       # Size band insights (8 segments)
-│   │   ├── autodesk_tenure_analysis.csv         # Lifecycle analysis (9 stages)
-│   │   ├── autodesk_risk_opportunity_matrix.csv # Performance categories (5 types)
-│   │   ├── autodesk_monthly_trends.csv          # Time-series data (24 combinations)
-│   │   └── autodesk_overall_monthly_trends.csv  # Executive summary (4 months)
-│   └── raw/
-│       ├── ACCOUNT_AGE_PERFORMANCE.csv          # Account dimensions (242K records)
-│       ├── MONTH_05.csv                         # May 2024 usage data
-│       ├── MONTH_06.csv                         # June 2024 usage data
-│       ├── MONTH_07.csv                         # July 2024 usage data
-│       └── MONTH_08.csv                         # August 2024 usage data
-├── notebooks/
-│   └── Autodesk_Practice.ipynb                  # Complete 12-step analysis
+│   ├── processed_datasets.zip              # All 7 optimized datasets
+│   └── original_datasets.zip               # Raw data files
+├── powerbi/
+│   └── Autodesk Presentation.pbix          # Executive dashboard
 ├── database/
-│   ├── create_database.py                       # DuckDB optimization script
-│   └── autodesk_analytics.db                    # SQL-queryable database
-└── README.md                                    # This documentation
+│   ├── create_database.py                  # DuckDB optimization script
+│   └── analytics_database.zip              # SQL-queryable database
+├── Autodesk_Practice.ipynb                 # Complete 12-step analysis
+└── README.md                               # This documentation
 ```
 
 ---
@@ -324,11 +312,11 @@ pip install pandas numpy jupyter duckdb
 ```
 
 ### **Running the Analysis**
-1. **Clone Repository:** `git clone [repository-url]`
-2. **Open Notebook:** Launch `notebooks/Autodesk_Practice.ipynb`
-3. **Load Data:** Place raw CSV files in `data/raw/` directory
+1. **Clone Repository:** `git clone https://github.com/MiguelEnriquePortilla/Autodesk.git`
+2. **Open Notebook:** Launch `Autodesk_Practice.ipynb`
+3. **Load Data:** Extract datasets from `data/original_datasets.zip`
 4. **Execute Analysis:** Run all cells to reproduce 12-step methodology
-5. **Generate Datasets:** Processed files automatically saved to `data/processed/`
+5. **Generate Datasets:** Processed files automatically created
 
 ### **Database Optimization (Optional)**
 ```bash
@@ -337,10 +325,11 @@ python database/create_database.py
 Creates DuckDB database for SQL-based analysis and improved query performance.
 
 ### **Power BI Setup**
-1. Import all 7 processed CSV files
-2. Establish relationships using AccountID and Region
-3. Create calculated measures for KPIs
-4. Build dashboards following architecture guide
+1. Extract datasets from `data/processed_datasets.zip`
+2. Import all 7 processed CSV files into Power BI
+3. Establish relationships using AccountID and Region
+4. Create calculated measures for KPIs
+5. Build dashboards following architecture guide
 
 ---
 
@@ -362,7 +351,4 @@ This project demonstrates **end-to-end analytical methodology** combining:
 Data Analyst | Business Intelligence Specialist  
 [LinkedIn](https://linkedin.com/in/miguelenriqueportilla) | [GitHub](https://github.com/MiguelEnriquePortilla)
 
-*"Turning data into decisions, insights into impact."* 
-=======
-# Autodesk-Practice
->>>>>>> 3aff0661a59514060ffe7ca71a58bcc5fe3235e3
+*"Turning data into decisions, insights into impact."*

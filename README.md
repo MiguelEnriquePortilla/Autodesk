@@ -1,5 +1,5 @@
 # 🎯 Autodesk APAC Customer Analytics
-*Transforming 955K customer records into $1M+ revenue opportunities through data-driven insights*
+*Comprehensive analysis of 955,033 customer usage records revealing critical performance gaps and intervention opportunities across APAC regions*
 
 ## 🚀 Quick Access - Everything You Need
 
@@ -12,10 +12,10 @@
 
 ---
 
-## 💡 Executive Summary - Why This Matters
+## 💡 Executive Summary - Key Findings
 
-### **$1M+ Revenue Opportunity Identified**
-Through systematic analysis of **955,033 customer usage records** across APAC, I've uncovered critical business opportunities and risks that require immediate attention.
+### **Critical Business Discoveries**
+Through systematic analysis of **955,033 customer usage records** across APAC, I've identified significant performance gaps and opportunities that require strategic intervention.
 
 ### 🔴 **Critical Discoveries**
 
@@ -163,12 +163,12 @@ jupyter notebook Autodesk_Practice.ipynb
 
 ## 📊 Business Impact Summary
 
-| Metric | Current State | Opportunity | Potential Impact |
-|--------|--------------|-------------|------------------|
-| **Enterprise Accounts** | 58.5% assignment | +40 points improvement | $1M+ revenue retention |
-| **Greater China** | 57.6% utilization | +22 points to match ANZ | Market leadership |
-| **At-Risk Customers** | Reactive support | Predictive intervention | 50% churn reduction |
-| **Veteran Accounts** | 74.9% utilization | Re-engagement program | 15% usage increase |
+| Metric | Current State | Gap Identified | Intervention Opportunity |
+|--------|--------------|----------------|-------------------------|
+| **Enterprise Accounts** | 58.5% assignment | 40-point gap vs small accounts | Enterprise success program |
+| **Greater China** | 57.6% utilization | 21.8-point gap vs ANZ | Regional strategy needed |
+| **At-Risk Customers** | <60% utilization | Churn correlation identified | Predictive intervention |
+| **Veteran Accounts** | 74.9% utilization | 14-point gap vs new customers | Re-engagement program |
 
 ---
 
@@ -195,7 +195,7 @@ jupyter notebook Autodesk_Practice.ipynb
 
 LinkedIn: [Miguel Enrique Portilla](https://linkedin.com/in/miguelenriqueportilla)  
 GitHub: [MiguelEnriquePortilla](https://github.com/MiguelEnriquePortilla)  
-Email: [miguel.e.portillagmail.com]
+Email: [your.email@example.com]
 
 *"Turning data into decisions, insights into impact."*
 

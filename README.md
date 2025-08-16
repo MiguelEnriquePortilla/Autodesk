@@ -373,7 +373,7 @@ jupyter notebook Autodesk_Practice.ipynb
 
 ---
 
-## 💡 **What This Project Demonstrates**
+## 💡 **Skills and Habilities Demostrated**
 
 ### **Analytical Thinking:**
 - **Systematic methodology:** 12-step structured approach to complex problems

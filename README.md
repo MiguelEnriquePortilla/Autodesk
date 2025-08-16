@@ -195,7 +195,7 @@ jupyter notebook Autodesk_Practice.ipynb
 
 LinkedIn: [Miguel Enrique Portilla](https://linkedin.com/in/miguelenriqueportilla)  
 GitHub: [MiguelEnriquePortilla](https://github.com/MiguelEnriquePortilla)  
-Email: [your.email@example.com]
+Email: [miguel.e.portillagmail.com]
 
 *"Turning data into decisions, insights into impact."*
 

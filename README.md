@@ -207,7 +207,9 @@ Rather than creating a one-size-fits-all dashboard, I designed three interconnec
 
 **My Design Decision:** C-level executives need instant comprehension of business health with minimal cognitive load. They scan top-to-bottom, left-to-right, and require immediate answers to "How are we performing?" and "Where should we focus?"
 
+
 <img width="1313" height="734" alt="Executive Summary Dashboard" src="https://github.com/user-attachments/assets/8497b78e-f363-4025-bc29-aada6800a9b3" />
+
 
 **Strategic Design Choices:**
 
@@ -229,7 +231,9 @@ Rather than creating a one-size-fits-all dashboard, I designed three interconnec
 
 **My Design Decision:** Operations teams need drill-down capability for intervention planning. They require detailed patterns, specific metrics, and the ability to identify which customer segments need immediate attention.
 
+
 <img width="1312" height="741" alt="Customer Segmentation Dashboard" src="https://github.com/user-attachments/assets/945d2bf1-a2df-4591-8e24-068348fb847e" />
+
 
 **Analytical Design Elements:**
 
@@ -249,7 +253,9 @@ Rather than creating a one-size-fits-all dashboard, I designed three interconnec
 
 **My Design Decision:** Customer success teams need predictive indicators and intervention priorities. This page transforms usage patterns into early warning systems and proactive customer health management.
 
+
 <img width="1312" height="732" alt="Risk Analysis Dashboard" src="https://github.com/user-attachments/assets/9b32499a-1c56-4405-a072-c423f4545a57" />
+
 
 **Predictive Design Elements:**
 

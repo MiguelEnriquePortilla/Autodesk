@@ -195,6 +195,89 @@
 - Format standardization for stakeholder accessibility
 
 ---
+## 📊 **Dashboard Architecture & Design Methodology**
+
+### **My Stakeholder-Driven Visualization Strategy:**
+
+Rather than creating a one-size-fits-all dashboard, I designed three interconnected pages, each optimized for different decision-making levels and analytical needs within the organization. Each page represents a deliberate design choice based on how different stakeholders consume and act on data.
+
+---
+
+#### **📈 Page 1: Executive Summary - C-Level Strategic Overview**
+
+**My Design Decision:** C-level executives need instant comprehension of business health with minimal cognitive load. They scan top-to-bottom, left-to-right, and require immediate answers to "How are we performing?" and "Where should we focus?"
+
+<img width="1313" height="734" alt="Executive Summary Dashboard" src="https://github.com/user-attachments/assets/8497b78e-f363-4025-bc29-aada6800a9b3" />
+
+**Strategic Design Choices:**
+
+**KPI Cards (Top Row):** I positioned the four critical baseline metrics (74.0% utilization, 92.9% assignment, 253K customers, 4M seats) prominently at the top because executives need context before diving into analysis.
+
+**Regional Market Treemap (Bottom Left):** The size-coded treemap immediately communicates market share distribution across APAC regions. I chose this visualization because area size intuitively represents market importance - executives can instantly see that Japan and Greater China dominate market share.
+
+**Regional Performance Ranking (Top Right):** The ranked table format allows executives to immediately identify best/worst performing regions. ANZ at the top (97.2% assignment) vs Greater China at bottom (82.8% assignment) creates clear accountability and intervention priorities.
+
+**Customer Health Distribution (Bottom Left):** The pie chart shows business health at-a-glance - 75.1% flat performance means stable revenue base, while 15% expansion opportunities indicate growth potential.
+
+**Performance Trends (Bottom Right):** The time series enables executives to spot trajectory changes and seasonal patterns across APAC markets.
+
+**Why This Layout Works:** Follows executive scanning behavior - context first (KPIs), then market overview (treemap), actionable priorities (ranking), and performance health (pie + trends).
+
+---
+
+#### **🎯 Page 2: Customer Segmentation Analysis - Operational Deep-Dive**
+
+**My Design Decision:** Operations teams need drill-down capability for intervention planning. They require detailed patterns, specific metrics, and the ability to identify which customer segments need immediate attention.
+
+<img width="1312" height="741" alt="Customer Segmentation Dashboard" src="https://github.com/user-attachments/assets/945d2bf1-a2df-4591-8e24-068348fb847e" />
+
+**Analytical Design Elements:**
+
+**Size Band Performance Gap (Top Left):** The horizontal bar chart immediately reveals the counterintuitive enterprise paradox - 500+ seat customers show worst performance (58.5% assignment vs 98.3% for 1-seat customers). I chose horizontal bars because the 40-point performance gap is visually dramatic and impossible to miss.
+
+**Customer Lifecycle Journey (Top Right):** The line chart traces performance across tenure segments, revealing that new customers (Q1: 94.4% assignment) significantly outperform veterans (3+ years: 74.9% utilization). This pattern drives strategic recommendations for veteran re-engagement programs.
+
+**Customer Distribution Treemap (Bottom Left):** Shows market composition - 54.7% single-seat customers dominate volume, while enterprise customers represent tiny volume but high revenue impact. This visualization helps operations teams understand intervention resource allocation.
+
+**Performance Matrix (Bottom Right):** The detailed table provides specific metrics for customer success teams to identify intervention targets. The 500+ seats segment shows 43.3% at-risk rate and only 46.4% utilization - clear intervention priority.
+
+**Why This Approach Works:** Operations teams need both visual patterns (charts) and specific data (tables) to execute customer success strategies. The combination enables pattern recognition and tactical planning.
+
+---
+
+#### **⚠️ Page 3: Risk Analysis Framework - Predictive Customer Success**
+
+**My Design Decision:** Customer success teams need predictive indicators and intervention priorities. This page transforms usage patterns into early warning systems and proactive customer health management.
+
+<img width="1312" height="732" alt="Risk Analysis Dashboard" src="https://github.com/user-attachments/assets/9b32499a-1c56-4405-a072-c423f4545a57" />
+
+**Predictive Design Elements:**
+
+**Customer Health Distribution (Top Left):** The horizontal bar chart prioritizes business categories by intervention urgency. "Flat" customers (largest segment) represent stability, while "Contraction" and "Churn" segments require immediate customer success intervention.
+
+**Customer Performance Matrix (Top Right):** This detailed table provides account-level data for customer success teams. The 955,033 total usage records roll up to specific intervention targets - customers with low utilization rates flagged for proactive outreach.
+
+**Regional Risk vs Performance Matrix (Bottom Left):** The bubble chart plots each region's risk profile vs performance, with bubble size representing market importance. Greater China appears as a large bubble in the high-risk zone - clear intervention priority. ANZ appears in the high-performance, low-risk quadrant - best practice source.
+
+**Risk Evolution Trends (Bottom Right):** The area chart tracks risk patterns over time by region, enabling customer success teams to identify deteriorating markets before they become critical. The trend analysis provides early warning capabilities.
+
+**Why This Framework Works:** Transforms reactive customer success into proactive intervention by providing clear risk signals, intervention priorities, and predictive indicators for each market.
+
+---
+
+### **🎯 Design Philosophy Integration:**
+
+**Multi-Level Storytelling:** Each page tells the same story at different analytical depths - executives see strategic overview, operations see tactical patterns, customer success sees intervention priorities.
+
+**Visual Hierarchy:** Consistent color coding, logical flow, and intuitive navigation ensure stakeholders can quickly find relevant insights without cognitive overload.
+
+**Actionable Intelligence:** Every visualization drives specific business actions - not just pretty charts, but decision-support tools that enable data-driven customer success strategy.
+
+**Scalable Architecture:** The three-page structure can accommodate additional regions, segments, or time periods without losing clarity or usability.
+
+This dashboard architecture demonstrates my approach to transforming complex analytical findings into stakeholder-optimized business intelligence that drives customer success, revenue optimization, and strategic decision-making across APAC markets.
+
+---
 
 ## 📈 **Strategic Insights & Business Impact**
 

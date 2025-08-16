@@ -4,7 +4,6 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
-[![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)](https://duckdb.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
 
 ## 📊 **Project Overview**
@@ -13,8 +12,11 @@
 
 **My Analytical Approach:** Transform 955,033 usage records into actionable business intelligence through systematic methodology, strategic segmentation, and stakeholder-optimized deliverables.
 
-> **📋 [View Complete Analysis Notebook](https://colab.research.google.com/drive/1K8yOYdXgfRpqB_2Kd0z3cCQJ1K8yOYdX)**  
-> **📈 [Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzE4MTY2YzEtNjMyOC00NGE4LTk5YjktYjM5Y2I3ZTU1YjA2IiwidCI6IjYyMTEzNzMzLWFiNGUtNDY5MC1hZTNjLWNhOTU4YWE2MTY2NCIsImMiOjV9)**
+### **🔗 Access Project Files:**
+- **📓 [Complete Analysis Notebook](https://github.com/MiguelEnriquePortilla/Autodesk/blob/main/Autodesk_Practice.ipynb)** (GitHub - 12-step methodology)
+- **📁 [Processed Datasets (7 CSV files)](https://drive.google.com/file/d/1vFi0aHdNAqQ6B43lWH9-WKwRkhLAO2Ik/view?usp=sharing)** (Google Drive)
+- **📁 [Original Raw Data](https://drive.google.com/file/d/1oog32UgIkkc7N0kjL1EPDS0KKJCuO9AH/view?usp=sharing)** (Google Drive)
+- **📊 [Power BI Dashboard](https://drive.google.com/file/d/1sA_9BnoHAfUEI4ctTosSTtxpusFzI0CZ/view?usp=sharing)** (Google Drive)
 
 ---
 
@@ -176,15 +178,15 @@
 ### **Technology Stack Rationale:**
 
 **Python + Pandas:** Chosen for statistical analysis depth and data transformation flexibility  
-**DuckDB:** Implemented for SQL optimization on large datasets (955K records)  
+**Jupyter Notebook:** Ensures reproducible analysis workflow and methodology documentation  
 **Power BI:** Selected for executive dashboard interactivity and stakeholder familiarity  
-**Jupyter Notebook:** Ensures reproducible analysis workflow and methodology documentation
+**Google Drive:** Efficient data storage and secure sharing for large datasets
 
 ### **Performance Optimization Strategy:**
 - Pre-aggregated summaries eliminate dashboard loading delays
 - Calculated business logic embedded at dataset level, not visual level
 - Proper relational structure via AccountID, Region keys for seamless joins
-- Data type optimization for memory efficiency and query performance
+- CSV format optimization for cross-platform compatibility and query performance
 
 ### **Data Quality Assurance:**
 - Zero missing values validated across all datasets
@@ -243,14 +245,9 @@ My approach to stakeholder communication through data visualization:
 ```
 autodesk-apac-customer-analytics/
 ├── 📓 Autodesk_Practice.ipynb           # Complete 12-step methodology
-├── 📁 data/
-│   ├── 🗜️ processed_datasets.zip        # 7 optimized analytical datasets
-│   └── 🗜️ original_datasets.zip         # Raw source data
-├── 📊 powerbi/
-│   └── 📈 Autodesk Presentation.pbix    # Interactive executive dashboard
-├── 🗄️ database/
-│   ├── 🐍 create_database.py            # DuckDB optimization script
-│   └── 🗜️ analytics_database.zip        # SQL-queryable database
+├── 📁 [Processed Datasets](drive-link)  # 7 optimized CSV files
+├── 📁 [Original Data](drive-link)       # Raw source data
+├── 📊 [Power BI Dashboard](drive-link)  # Interactive executive dashboard
 └── 📋 README.md                         # This methodology documentation
 ```
 
@@ -259,8 +256,8 @@ autodesk-apac-customer-analytics/
 ## 🚀 **Quick Start Guide**
 
 ### **View Analysis Immediately:**
-- **📋 [Open Analysis Notebook](https://colab.research.google.com/drive/1K8yOYdXgfRpqB_2Kd0z3cCQJ1K8yOYdX)** (Google Colab - no setup required)
-- **📈 [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzE4MTY2YzEtNjMyOC00NGE4LTk5YjktYjM5Y2I3ZTU1YjA2IiwidCI6IjYyMTEzNzMzLWFiNGUtNDY5MC1hZTNjLWNhOTU4YWE2MTY2NCIsImMiOjV9)** (Power BI - live dashboard)
+- **📓 [Open Analysis Notebook](https://github.com/MiguelEnriquePortilla/Autodesk/blob/main/Autodesk_Practice.ipynb)** (GitHub - no setup required)
+- **📊 [Download Power BI Dashboard](https://drive.google.com/file/d/1sA_9BnoHAfUEI4ctTosSTtxpusFzI0CZ/view?usp=sharing)** (Google Drive)
 
 ### **Reproduce Analysis Locally:**
 ```bash
@@ -269,17 +266,21 @@ git clone https://github.com/MiguelEnriquePortilla/Autodesk.git
 cd Autodesk
 
 # Install dependencies
-pip install pandas numpy jupyter duckdb
+pip install pandas numpy jupyter matplotlib seaborn
+
+# Download datasets from Google Drive links above
+# Extract to local directory
 
 # Launch analysis
 jupyter notebook Autodesk_Practice.ipynb
 ```
 
-### **SQL Database Setup:**
-```bash
-# Create optimized DuckDB database
-python database/create_database.py
-```
+### **Power BI Dashboard Setup:**
+1. Download Power BI file from Google Drive link above
+2. Download processed datasets from Google Drive
+3. Open .pbix file in Power BI Desktop
+4. Update data source connections to local CSV files
+5. Refresh data and explore interactive dashboards
 
 ---
 
@@ -292,7 +293,7 @@ python database/create_database.py
 
 ### **Technical Expertise:**
 - **Data optimization:** Purpose-built datasets for different stakeholder needs
-- **Performance architecture:** DuckDB implementation for large dataset efficiency
+- **Performance architecture:** CSV optimization for large dataset efficiency
 - **Visualization strategy:** Executive-level dashboard design and communication
 
 ### **Business Acumen:**
